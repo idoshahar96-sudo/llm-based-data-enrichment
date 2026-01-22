@@ -1,5 +1,8 @@
 # LLM-based Data Enrichment
 
+![GPT vs Gemini](assets/gpt_vs_gemini.png)
+*Illustrative comparison between GPT and Gemini as enrichment engines.  
+
 ## What is a CPS Device Inventory?
 
 A **CPS (Cyber-Physical Systems) device inventory** is a structured record of physical assets that combine computation, networking, and real-world control or sensing. In operational technology (OT) and industrial environments, such inventories typically include devices such as PLCs, HMIs, industrial PCs, medical devices, building controllers, power equipment, and network appliances. Unlike traditional IT inventories, CPS inventories often lack standardized metadata, have inconsistent naming conventions, and provide limited visibility into device roles or operating systems. As a result, enrichment of CPS inventories is a critical prerequisite for security monitoring, risk assessment, vulnerability management, and incident response in OT and mixed IT/OT environments.
