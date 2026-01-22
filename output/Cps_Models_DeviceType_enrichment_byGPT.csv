@@ -1,0 +1,51 @@
+model,device_type,device_type_confidence,device_type_justification
+Carel PCO1000WB0,Building Management Controller (BMS),high,"The Carel PCO1000WB0 is a controller specifically designed for HVAC applications, fitting the BMS category."
+Hill-Rom NaviCare Room Control Board,Building Management Controller (BMS),high,"The Hill-Rom NaviCare Room Control Board is used for managing room environments in healthcare settings, aligning with BMS."
+Honeywell ComfortPoint Open CPO-VAV2A,Building Management Controller (BMS),high,"The Honeywell ComfortPoint Open CPO-VAV2A is a controller for HVAC systems, fitting the BMS category."
+Johnson Controls NAE,Building Management Controller (BMS),high,The Johnson Controls NAE is a network automation engine used for building management systems.
+Siemens PXC Modular,Building Management Controller (BMS),medium,"The Siemens PXC Modular is commonly used in building management systems, though it can have broader applications."
+Rockwell Automation PanelView Plus,HMI,high,The Rockwell Automation PanelView Plus is a well-established human-machine interface used in industrial settings.
+Rockwell Automation PanelView Plus 7 Performance 1000,HMI,high,The Rockwell Automation PanelView Plus 7 Performance 1000 is a high-performance HMI widely recognized in the industry.
+Siemens SIMATIC HMI,HMI,high,The Siemens SIMATIC HMI is a recognized human-machine interface product family in the automation sector.
+Siemens SIMATIC IPC,Industrial PC (IPC),high,The Siemens SIMATIC IPC is specifically designed for industrial computing applications.
+IGEL IGEL Thin Client,Industrial PC (IPC),medium,"The IGEL IGEL Thin Client is often used in industrial settings for various applications, fitting the IPC category."
+Nova Biomedical StatStrip,Laboratory Analyzer,high,The Nova Biomedical StatStrip is a well-known device used for laboratory analysis in medical settings.
+Alaris 8100 Pump Module,Medical Infusion Pump,high,The Alaris 8100 Pump Module is specifically designed for delivering medication and fluids to patients.
+Alaris 8110 Syringe Module,Medical Infusion Pump,high,The Alaris 8110 Syringe Module is a component of an infusion system used for precise medication delivery.
+B.Braun Infusomat Space,Medical Infusion Pump,high,The B.Braun Infusomat Space is a widely recognized infusion pump used in healthcare settings.
+Baxter Novum IQ,Medical Infusion Pump,high,The Baxter Novum IQ is a medical infusion pump known for its advanced medication delivery capabilities.
+Baxter Sigma Spectrum,Medical Infusion Pump,high,The Baxter Sigma Spectrum is a widely used infusion pump in clinical environments.
+Baxter Spectrum IQ,Medical Infusion Pump,high,The Baxter Spectrum IQ is a medical infusion pump that is part of the Sigma Spectrum family.
+Hospira Plum 360,Medical Infusion Pump,high,The Hospira Plum 360 is a widely recognized infusion pump used in medical settings.
+Roche Accu-Chek Inform II,Medical Infusion Pump,high,The Roche Accu-Chek Inform II is specifically designed for medical infusion applications.
+Alaris 8015 PC Unit,Medical Patient Monitor,high,The Alaris 8015 PC Unit is part of a medical device system primarily used for patient monitoring.
+Philips EarlyVue VS30,Medical Patient Monitor,high,The Philips EarlyVue VS30 is specifically designed for patient monitoring in healthcare environments.
+Philips IntelliVue,Medical Patient Monitor,high,The Philips IntelliVue is a widely recognized patient monitoring system used in hospitals.
+Philips IntelliVue MX40,Medical Patient Monitor,high,The Philips IntelliVue MX40 is a portable patient monitor commonly used in clinical settings.
+Philips IntelliVue X3,Medical Patient Monitor,high,"The Philips IntelliVue X3 is designed for patient monitoring, aligning with established medical device categories."
+Smiths Medical MedFusion 4000,Medical Patient Monitor,high,The Smiths Medical MedFusion 4000 is primarily used as a medical patient monitoring device.
+Lantronix MatchPort AR,Network Appliance,high,The Lantronix MatchPort AR is primarily used for network connectivity in industrial applications.
+APC AP9630,Network Appliance,medium,The APC AP9630 is commonly used as a network management card for power devices.
+APC AP9631,Network Appliance,medium,The APC AP9631 serves as a network management interface for power distribution units.
+Carel pCOWeb Card,Network Appliance,medium,"The Carel pCOWeb Card is a network interface for monitoring and controlling HVAC systems, aligning it with network appliances."
+Rauland-Borg Responder,Nurse Call System,medium,"The Rauland-Borg Responder is primarily used as a communication system in healthcare settings, fitting the nurse call category."
+B.Braun SmartBattery with Wifi,Other,low,The B.Braun SmartBattery with Wifi does not fit into a standard device type category.
+Baxter Sigma Spectrum Wireless Module,Other,low,The Baxter Sigma Spectrum Wireless Module does not align with a specific device type.
+Becton Dickinson Pyxis ES System,Other,low,The Becton Dickinson Pyxis ES System is a medication management system that does not fit standard OT device categories.
+Cerner Connectivity Engine,Other,low,"The Cerner Connectivity Engine is primarily a healthcare data integration tool, not fitting standard OT categories."
+Microsystems SPM Client,Other,low,The Microsystems SPM Client does not fit neatly into the standard categories and is more of a specialized client device.
+Omnicell Automated Dispensing Cabinet,Other,low,The Omnicell Automated Dispensing Cabinet serves a unique role in medication management that does not align with standard categories.
+Philips PIIC,Other,low,The Philips PIIC does not fit into standard categories and serves a specific function in patient information integration.
+Swisslog Translogic Tube Station,Other,low,The Swisslog Translogic Tube Station does not fit neatly into the provided categories and is more of a logistics solution.
+Schneider Electric AS series,PLC,high,The Schneider Electric AS series is primarily used as a programmable logic controller in automation systems.
+Schneider Electric AS-P,PLC,high,The Schneider Electric AS-P is a well-known programmable logic controller in industrial automation.
+APC 0N-9582PANTERA,Power Distribution Unit (PDU),high,The APC 0N-9582PANTERA is a model associated with power distribution management.
+APC AP7811B,Power Distribution Unit (PDU),high,The APC AP7811B is a well-known model of a power distribution unit.
+APC ATS,Power Distribution Unit (PDU),high,"The APC ATS is recognized as an automatic transfer switch, a type of power distribution device."
+APC MasterSwitchrPDU,Power Distribution Unit (PDU),high,The APC MasterSwitchrPDU is specifically designed for power distribution in data centers.
+APC MasterSwitchrPDU2,Power Distribution Unit (PDU),high,The APC MasterSwitchrPDU2 is another model in the power distribution unit category.
+Eaton Tripp Lite Series,Power Distribution Unit (PDU),high,"The Eaton Tripp Lite Series is known for power distribution, making it a clear fit for the PDU category."
+APC Smart-UPS 1500,UPS,high,The APC Smart-UPS 1500 is a well-established uninterruptible power supply model.
+APC Smart-UPS SMT 1500,UPS,high,The APC Smart-UPS SMT 1500 is a recognized model of uninterruptible power supply.
+APC Smart-UPS SRT 2200,UPS,high,The APC Smart-UPS SRT 2200 is a known uninterruptible power supply model used in critical applications.
+APC Smart-UPS SRT 5000,UPS,high,The APC Smart-UPS SRT 5000 is a well-known uninterruptible power supply designed for critical power protection.
