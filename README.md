@@ -5,16 +5,17 @@
 A **CPS (Cyber-Physical Systems) device inventory** is a structured record of physical assets that combine computation, networking, and real-world control or sensing. In operational technology (OT) and industrial environments, such inventories typically include devices such as PLCs, HMIs, industrial PCs, medical devices, building controllers, power equipment, and network appliances. Unlike traditional IT inventories, CPS inventories often lack standardized metadata, have inconsistent naming conventions, and provide limited visibility into device roles or operating systems. As a result, enrichment of CPS inventories is a critical prerequisite for security monitoring, risk assessment, vulnerability management, and incident response in OT and mixed IT/OT environments.
 
 ---
-
 ## Project Overview
 
 This project explores the use of **Large Language Models (LLMs)** for enriching CPS asset inventories with structured, security-relevant metadata, focusing on:
 
 - Device type classification  
 - Operating system (OS family) inference  
-- Confidence and justification annotations  
 
-The pipeline compares **GPT (OpenAI)** and **Gemini (Google)** on the same CPS dataset and evaluates their behavior in terms of coverage, confidence usability, and inter-model agreement. The goal is not to establish ground-truth accuracy (which is unavailable), but to analyze **model behavior, consistency, and suitability for asset inventory enrichment**.
+For each **device type** and **operating system** classification, the pipeline additionally assigns a **confidence level** and a **short justification**, enabling interpretable and analyst-friendly enrichment results.
+
+The pipeline compares **GPT (OpenAI)** and **Gemini (Google)** on the same CPS dataset and evaluates their behavior in terms of coverage, confidence usability, and inter-model agreement.  
+The comparative analysis is performed **only for the OS family classification**, as device type enrichment is carried out using a single model.
 
 ---
 
@@ -38,10 +39,8 @@ The pipeline compares **GPT (OpenAI)** and **Gemini (Google)** on the same CPS d
 
 - Uses **product-family semantics** and industry naming conventions.
 - Constrained to a **fixed, OT-aware taxonomy** to ensure inventory compatibility.
-- Each prediction includes:
-  - **Device type**
-  - **Confidence level** (`low`, `medium`, `high`)
-  - **Short justification**
+
+Each prediction includes the inferred **device type**, an associated **confidence level** (`low`, `medium`, `high`), and a **short justification** explaining the reasoning behind the classification.
 
 The prompt is carefully structured to constrain the model’s role, output schema, and allowed vocabulary, ensuring consistent and interpretable classifications.
 
