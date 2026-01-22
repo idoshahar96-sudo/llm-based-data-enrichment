@@ -1,7 +1,10 @@
 # LLM-based Data Enrichment
 
+This project evaluates the use of LLMs (GPT and Gemini) for CPS asset intelligence enrichment, focusing on device type classificationand operating system inference under uncertainty.
+
 ![GPT vs Gemini](assets/gpt_vs_gemini.png)
-*Illustrative comparison between GPT and Gemini as enrichment engines.  
+
+Illustrative comparison between GPT and Gemini as enrichment engines.  
 
 ## What is a CPS Device Inventory?
 
