@@ -28,6 +28,7 @@ The comparative analysis is performed **only for the OS family classification**,
 ## Project Structure
 
 ```text
+├── assets/        # Visual artifacts used in README
 ├── notebooks/     # Exploratory analysis and demonstration notebook
 ├── src/           # Modular, production-style enrichment pipeline
 ├── data/          # Input CSVs (ignored in git)
